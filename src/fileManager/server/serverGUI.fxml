@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ContextMenu?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TreeView?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="330.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fileManager.server.ServerController">
+   <children>
+      <TreeView fx:id="usersTreeView" layoutX="15.0" layoutY="15.0" prefHeight="370.0" prefWidth="300.0">
+         <contextMenu>
+            <ContextMenu fx:id="contextMenu">
+              <items>
+                <MenuItem mnemonicParsing="false" text="Usuń" />
+              </items>
+            </ContextMenu>
+         </contextMenu>
+      </TreeView>
+   </children>
+</Pane>
